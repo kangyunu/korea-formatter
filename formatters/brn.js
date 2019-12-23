@@ -1,7 +1,7 @@
 module.exports = value => {
   const str = (value + "").replace(/ /gi, "");
 
-  const numberCounts = [3, 2, 4]
+  const numberCounts = [3, 2, 5]
 
   let idx = 0
   return numberCounts.map(n => {
