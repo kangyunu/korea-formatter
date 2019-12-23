@@ -1,0 +1,29 @@
+{
+  "name": "korea-formatter",
+  "version": "1.0.0",
+  "description": "한국 포메터(전화번호, 사업자번호, 주민등록번호, ...)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "korea",
+    "kor",
+    "korean",
+    "formatter",
+    "phone",
+    "tel",
+    "business",
+    "business",
+    "license",
+    "license",
+    "ssn",
+    "registration",
+    "number",
+    "number",
+    "registration",
+    "number"
+  ],
+  "author": "KangByungSeon",
+  "license": "ISC"
+}
