@@ -1,10 +1,10 @@
-module.exports = value => {
+module.exports = function (value) {
   const str = (value + "").replace(/[^0-9]/g, "");
 
   const numberCounts = [3, 2, 5]
 
   let idx = 0
-  return numberCounts.map(n => {
+  return numberCounts.map(function (n) {
     const result = str.substr(idx, n);
     idx = idx + n;
     return result
