@@ -1,6 +1,6 @@
 module.exports = {
-  phone: require('./formatters/phone'),
-  rrn: require('./formatters/rrn'),
-  brn: require('./formatters/brn'),
-  krw: require('./formatters/krw'),
+  phone: require('./dist/phone'),
+  rrn: require('./dist/rrn'),
+  brn: require('./dist/brn'),
+  krw: require('./dist/krw'),
 }
