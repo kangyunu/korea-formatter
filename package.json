@@ -1,6 +1,6 @@
 {
   "name": "korea-formatter",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "한국 포메터(전화번호, 사업자번호, 주민등록번호, ...)",
   "main": "index.js",
   "scripts": {
