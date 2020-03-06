@@ -1,4 +1,5 @@
 module.exports = value => {
+  if (value !== 0 && !value) return
   const str = (value + "").replace(/[^0-9]/g, "");
 
   const numberCounts = [6, 7]

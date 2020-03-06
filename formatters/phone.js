@@ -1,4 +1,5 @@
 module.exports = value => {
+  if (value !== 0 && !value) return
   const str = (value + "").replace(/[^0-9]/g, "");
 
   const isSeoul = str.substr(0, 2) === "02"
